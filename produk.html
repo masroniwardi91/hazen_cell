@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <title>Hazen.Cell | Produk</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/rk.css">
+    <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <style>
+        body {
+            background-color: #093e61;
+        }
+
+        hr {
+            box-sizing: inherit !important;
+        }
+
+        .header {
+            background: url(images/header/header7.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: right;
+        }
+
+        .produk {
+            background: url(images/garis-atas.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: bottom;
+        }
+
+        .produk::before {
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 100px;
+            background-image: url(images/garis-bawah.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            z-index: -1;
+        }
+
+        /* .produk::after {
+            background-image: url(../images/garis-atas.png);
+            top: unset;
+        } */
+
+
+
+
+
+
+        .btn-outline-white {
+            color: white;
+            background-color: transparent;
+            background-image: none;
+            border-color: white;
+        }
+
+        .btn-outline-white:hover {
+            background-color: rgba(255, 255, 255, 0.479);
+        }
+
+        .bg-dargblue,
+        .navbar {
+            background-color: #032c44;
+        }
+
+        .border-dargblue {
+            --bs-border-opacity: 1;
+            border-color: #0c3d5a !important;
+        }
+
+        .btn-beli {
+            color: #fff;
+            background-color: #e45429;
+            border-color: #e45429;
+            width: 95%;
+        }
+
+        .btn-beli:hover {
+            color: #fff;
+            background-color: #ca3507;
+        }
+
+        .card-title {
+            color: #242424;
+            font-weight: 550;
+            font-size: 0.9rem;
+            border-bottom: 1px solid rgb(201, 201, 201);
+        }
+
+        .harga {
+            color: rgb(4, 133, 4);
+            font-weight: bold;
+        }
+
+        #card-img {
+            width: 95%;
+            margin: auto;
+        }
+
+        .retting-shell {
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        .retting-shell .retting {
+            width: 80px;
+
+        }
+
+        .retting-shell .shell {
+            width: 130px;
+
+        }
+
+        /* Batas Akhir penulisan kode CSS internal */
+    </style>
+</head>
+
+<body>
+    <!-- Tulis Kode Bootstrap Di Bawah Sini -->
+    <nav class="navbar navbar-dark navbar-expand-lg navbar-light shadow fixed-top">
+        <!-- <nav class="navbar navbar-dark navbar-expand-lg bisadcopy position-fixed top-0"> -->
+        <div class="container">
+            <a class="navbar-brand" href="#"><img class="logo" src="images/logo/brand.png" height="40"
+                    alt="Icon"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-3">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#best-seller">Best Seller</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="">Handphone</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aksesoris.html">Aksesoris</a>
+                    </li>
+                </ul>
+                <a href="https://wa.me/6282278016856" target="_blank" class="btn btn-outline-white text-white"><i
+                        class="bi bi-whatsapp"></i> Cheat</a>
+            </div>
+        </div>
+    </nav>
+    <section class="produk mt-5 pb-5 ">
+        <div class="container text-center ">
+            <div class="row">
+                <div class="header mt-4 mb-4"><!--  -->
+                    <h1 class="text-white mt-5">Pilih Handphone Favoritmu</h1>
+                    <p class="text-white-50 ">Beli skarang dapatkan diskon dan casback terbaik</p>
+                    <!-- <hr class="border border-dargblue border-4 opacity-75"> -->
+                    <div class="form-floating mb-3 p-2 me-auto ms-auto " style="width: 65%;">
+                        <select class="form-select" id="pilih_produk" aria-label="Floating label select example">
+                            <option selected value="">Semua Produk</option>
+                            <option value="apple">Apple</option>
+                            <option value="samsung">Samsung</option>
+                            <option value="Asus">Asus</option>
+                            <option value="xiaomi">Xiaomi</option>
+                            <option value="Lenovo">Lenovo</option>
+                            <option value="oppo">Oppo</option>
+                            <option value="vivo">Vivo</option>
+                            <option value="realme">Realme</option>
+                        </select>
+                        <label for="pilih_produk" class="ps-3 pt-4">Pilih Produk</label>
+                    </div>
+                </div>
+            </div>
+            <div id="baris_produk" class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 ">
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dargblue py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link link-light active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-light" href="index.html#best-seller">Best Seller</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-light" href="index.html#our-team">Our Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-light" href="index.html#review">Review</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-light" href="index.html#contact-us">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-light text-end">
+                    Copyright Hazen.Cell 2023
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- Batas Akhir penulisan kode Bootstrap -->
+    <!-- <script src="js/script.js"></script> -->
+    <script>
+        var sumber1 = "https://rikikurnia.com/prakerja/api/kopi"
+        var sumber2 = "data.json"
+        showAllData();
+        pilih_produk.onchange = function () {
+            var dipilih = pilih_produk.value
+            dipilih == "" ? showAllData() : ambilData(dipilih);
+        }
+
+        function ambilData(dipilih) {
+            var elm_produk = ""
+            $.getJSON(sumber2).then(
+                function (data) {
+                    if (data[dipilih]) {
+                        data[dipilih].forEach((produk) => {
+                            elm_produk += ` <div class="col mb-2">
+                                <div class="card pt-2 pb-2 ${dipilih}" style="width: 12rem; min-height: 410px">
+                                            <img id="card-img" src="${produk['foto']}" class="card-img-top" width="400" alt="...">
+                                            <div class="card-body p-0">
+                                                <h3 class="card-title p-0" style="min-height: 45px;">${produk['nama']}</h3>
+                                                <div class="harga mb-1">${produk['harga']}</div>
+                                                <div class="btn btn-beli"><i class="bi bi-cart-dash me-2"></i> Beli</div>
+                                                <div class="retting-shell row my-1">
+                                                    <div class="retting"><img src="images/icon/start.svg"  width="10" alt="..."><small>  ${produk['retting']}</small></div>
+                                                    <div class="shell"><small>Terjual | ${produk['terjual']}</small></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>`
+                        });
+                        baris_produk.innerHTML = elm_produk;
+                    }else{
+                        baris_produk.innerHTML = "";
+                        alert(`Handphone ${dipilih} sedang kosong`)
+                    }
+                }
+            )
+
+        }
+        function showAllData() {
+            var elm_produk = ""
+            $.getJSON(sumber2).then(
+                function (data) {
+                    for (const key in data) {
+                        data[key].forEach((produk) => {
+                            elm_produk += ` <div class="col mb-2">
+                                 <div class="card pt-2 pb-2 ${data[key]}" style="width: 12rem; min-height: 410px">
+                                        <img id="card-img" src="${produk['foto']}" class="card-img-top" width="400" alt="...">
+                                        <div class="card-body p-0">
+                                            <h3 class="card-title p-0" style="min-height: 45px;">${produk['nama']}</h3>
+                                            <div class="harga mb-1">${produk['harga']}</div>
+                                            <div class="btn btn-beli"><i class="bi bi-cart-dash me-2"></i> Beli</div>
+                                            <div class="retting-shell row my-1">
+                                                <div class="retting"><img src="images/icon/start.svg"  width="10" alt="..."><small>  ${produk['retting']}</small></div>
+                                                <div class="shell"><small>Terjual | ${produk['terjual']}</small></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>`
+                        });
+                    }
+                    baris_produk.innerHTML = elm_produk;
+                }
+            )
+
+        }
+    </script>
+</body>
+
+</html>

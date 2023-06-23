@@ -1,0 +1,224 @@
+{
+    "apple": [
+        {
+            "foto": "images/produk/handphone/apple/apple-iphone-12-pro-max-.jpg",
+            "nama": "Iphone 12 Pro Max",
+            "terjual": "19",
+            "retting": "4.9",
+            "harga": "Rp. 10.000.000"
+        },
+        {
+            "foto": "images/produk/handphone/apple/apple-iphone-14-pro-max-.jpg",
+            "nama": "Iphone 14 Pro Max",
+            "terjual": "3",
+            "retting": "4.9",
+            "harga": "Rp. 21.000.000"
+        },
+        {
+            "foto": "images/produk/handphone/apple/apple-iphone-14-pro.jpg",
+            "nama": "Iphone 14 Pro",
+            "terjual": "4",
+            "retting": "4.9",
+            "harga": "Rp. 20.000.000"
+        },
+        {
+            "foto": "images/produk/handphone/apple/apple-iphone-14.jpg",
+            "nama": "Iphone 14",
+            "terjual": "10",
+            "retting": "4.9",
+            "harga": "Rp. 16.000.000"
+        }
+    ],
+    "oppo": [
+        {
+            "foto": "images/produk/handphone/oppo/oppo-a1x-.jpg",
+            "nama": "Oppo A1X 5G",
+            "terjual": "23",
+            "retting": "4.9",
+            "harga": "Rp. 2.100.000"
+        },
+        {
+            "foto": "images/produk/handphone/oppo/oppo-a57-4g.jpg",
+            "nama": "Oppo A57 4G",
+            "terjual": "51",
+            "retting": "4.9",
+            "harga": "Rp. 1.300.000"
+        },
+        {
+            "foto": "images/produk/handphone/oppo/oppo-a58.jpg",
+            "nama": "Oppo A58",
+            "terjual": "10",
+            "retting": "4.9",
+            "harga": "Rp. 2.300.000"
+        },
+        {
+            "foto": "images/produk/handphone/oppo/oppo-reno8-t-4g.jpg",
+            "nama": "Oppo Reno 8T",
+            "terjual": "4",
+            "retting": "4.9",
+            "harga": "Rp. 4.100.000"
+        },
+        {
+            "foto": "images/produk/handphone/oppo/oppo-reno9.jpg",
+            "nama": "Oppo Reno 9",
+            "terjual": "2",
+            "retting": "4.9",
+            "harga": "Rp. 9.600.000"
+        },
+        {
+            "foto": "images/produk/handphone/oppo/oppo-reno10-pro-plus.jpg",
+            "nama": "Oppo Reno 10Pro Plus",
+            "terjual": "5",
+            "retting": "4.9",
+            "harga": "Rp. 13.999.000"
+        }
+    ],
+    "realme": [
+        {
+            "foto": "images/produk/handphone/realme/realme-10-5g.jpg",
+            "nama": "Realme 10 5G",
+            "terjual": "6",
+            "retting": "4.9",
+            "harga": "Rp. 2.300.000"
+        },
+        {
+            "foto": "images/produk/handphone/realme/realme-10-pro-plus.jpg",
+            "nama": "Realme 10 Pro Plus",
+            "terjual": "3",
+            "retting": "4.2",
+            "harga": "Rp. 3.300.000"
+        },
+        {
+            "foto": "images/produk/handphone/realme/realme-10t.jpg",
+            "nama": "Realme 10T",
+            "terjual": "1",
+            "retting": "4.5",
+            "harga": "Rp. 3.900.000"
+        },
+        {
+            "foto": "images/produk/handphone/realme/realme-c53.jpg",
+            "nama": "Realme c53",
+            "terjual": "10",
+            "retting": "4.9",
+            "harga": "Rp. 2.100.000"
+        },
+        {
+            "foto": "images/produk/handphone/realme/realme-narzo-n55.jpg",
+            "nama": "Realme Narzo N55",
+            "terjual": "7",
+            "retting": "4.9",
+            "harga": "Rp. 3.100.000"
+        }
+    ],
+    "samsung": [
+        {
+            "foto": "images/produk/handphone/samsung/samsung-galaxy-a04.jpg",
+            "nama": "Samsung Galaxy A04",
+            "terjual": "15",
+            "retting": "4.9",
+            "harga": "Rp. 1.350.000"
+        },
+        {
+            "foto": "images/produk/handphone/samsung/samsung-galaxy-a14-5g.jpg",
+            "nama": "Samsung Galaxy A14 5G",
+            "terjual": "11",
+            "retting": "4.9",
+            "harga": "Rp. 2.750.000"
+        },
+        {
+            "foto": "images/produk/handphone/samsung/samsung-galaxy-a24-4g-2.jpg",
+            "nama": "Samsung Galaxy A24 4G",
+            "terjual": "13",
+            "retting": "4.9",
+            "harga": "Rp. 3.550.000"
+        },
+        {
+            "foto": "images/produk/handphone/samsung/samsung-galaxy-f14.jpg",
+            "nama": "Samsung Galaxy F14",
+            "terjual": "3",
+            "retting": "4.9",
+            "harga": "Rp. 6.550.000"
+        },
+        {
+            "foto": "images/produk/handphone/samsung/samsung-galaxy-s23-ultra-5g.jpg",
+            "nama": "Samsung Galaxy S23 Ultra 5G",
+            "terjual": "2",
+            "retting": "4.9",
+            "harga": "Rp. 22.550.000"
+        }
+    ],
+    "vivo": [
+        {
+            "foto": "images/produk/handphone/vivo/vivo-s17t.jpg",
+            "nama": "Vivo S17T",
+            "terjual": "20",
+            "retting": "4.9",
+            "harga": "Rp. 3.930.000"
+        },
+        {
+            "foto": "images/produk/handphone/vivo/vivo-v27.jpg",
+            "nama": "Vivo V27",
+            "terjual": "16",
+            "retting": "4.9",
+            "harga": "Rp. 3.350.000"
+        },
+        {
+            "foto": "images/produk/handphone/vivo/vivo-y36-5g.jpg",
+            "nama": "Vivo Y36 5G",
+            "terjual": "4",
+            "retting": "4.9",
+            "harga": "Rp. 5.990.000"
+        },
+        {
+            "foto": "images/produk/handphone/vivo/vivo-y55-5g.jpg",
+            "nama": "Vivo Y55 5G",
+            "terjual": "2",
+            "retting": "4.9",
+            "harga": "Rp. 4.950.000"
+        },
+        {
+            "foto": "images/produk/handphone/vivo/vivo-y78-global.jpg",
+            "nama": "Vivo Y78",
+            "terjual": "5",
+            "retting": "4.9",
+            "harga": "Rp. 5.990.000"
+        }
+    ],
+    "xiaomi": [
+        {
+            "foto": "images/produk/handphone/xiaomi/xiaomi-13-red.jpg",
+            "nama": "Xiaomi 13",
+            "terjual": "3",
+            "retting": "4.9",
+            "harga": "Rp. 10.350.000"
+        },
+        {
+            "foto": "images/produk/handphone/xiaomi/xiaomi-poco-f5-pro-2.jpg",
+            "nama": "Xiaomi Poco F5 Pro",
+            "terjual": "8",
+            "retting": "4.9",
+            "harga": "Rp. 7.930.000"
+        },
+        {
+            "foto": "images/produk/handphone/xiaomi/xiaomi-redmi-12-.jpg",
+            "nama": "Xiaomi Redmi 12",
+            "terjual": "15",
+            "retting": "4.9",
+            "harga": "Rp. 2.950.000"
+        },
+        {
+            "foto": "images/produk/handphone/xiaomi/xiaomi-redmi-a2-plus.jpg",
+            "nama": "Xiaomi Redmi A2 Plus",
+            "terjual": "8",
+            "retting": "4.9",
+            "harga": "Rp. 2.350.000"
+        },
+        {
+            "foto": "images/produk/handphone/xiaomi/xiaomi-redmi-note-12-pro-4g.jpg",
+            "nama": "Xiaomi Redmi Note 12 pro",
+            "terjual": "8",
+            "retting": "4.9",
+            "harga": "Rp. 3.850.000"
+        }
+    ]
+}
